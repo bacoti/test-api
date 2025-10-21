@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "b1078d33-935f-4dfe-95c8-19ffcd8bb9b4",
+		"name": "My API - Andi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49433204",
+		"_collection_link": "https://bacoti-6605479.postman.co/workspace/Andi-Aryanto's-Workspace~961928d5-9675-4b8d-8f9f-9822b11b237f/collection/49433204-b1078d33-935f-4dfe-95c8-19ffcd8bb9b4?action=share&source=collection_link&creator=49433204"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Hakim\",\r\n  \"email\": \"hakim@example.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
