@@ -165,6 +165,18 @@
 							"body": "{\n    \"message\": \"User berhasil diupdate!\",\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"Andi Aryanto Update\",\n        \"email\": \"andiupdate@example.com\"\n    }\n}"
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "49433204-f940924c-c0e9-40e1-91ce-7030509c1172",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "49433204-a8ae118a-225e-4bcf-822c-6a1c5e037696"
