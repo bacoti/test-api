@@ -94,7 +94,77 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "49433204-21540525-2436-4428-9edf-0e7cc51394e2",
+							"name": "New Request",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Andi Aryanto Update\",\r\n  \"email\": \"andiupdate@example.com\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/users/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "115"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"73-uoFWRoAi9ohISQEMoW29/LmH0kA\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 21 Oct 2025 12:24:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"message\": \"User berhasil diupdate!\",\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"Andi Aryanto Update\",\n        \"email\": \"andiupdate@example.com\"\n    }\n}"
+						}
+					]
 				}
 			],
 			"id": "49433204-a8ae118a-225e-4bcf-822c-6a1c5e037696"
