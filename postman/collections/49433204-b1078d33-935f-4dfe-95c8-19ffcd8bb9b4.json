@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "49433204-b1078d33-935f-4dfe-95c8-19ffcd8bb9b4",
+		"name": "My API - Andi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "49433204-f2c6ea56-3d84-4c42-a4c9-6679cf3d58db",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "49433204-45b0c8a1-ccd6-40f5-b6bc-64e7ddaa9678",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "49433204-a8ae118a-225e-4bcf-822c-6a1c5e037696"
+		}
+	]
+}
