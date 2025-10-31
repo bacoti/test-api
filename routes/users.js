@@ -7,12 +7,12 @@ let users = [
   { id: 3, name: "Rifqi", email: "rifqi@example.com" }
 ];
 
-// 🔹 GET (Read all users)
+// GET (Read all users)
 router.get("/", (req, res) => {
   res.json(users);
 });
 
-// 🔹 POST (Create new user)
+// POST (Create new user)
 router.post("/", (req, res) => {
   const { name, email } = req.body;
   const newUser = { id: users.length + 1, name, email };
@@ -23,7 +23,7 @@ router.post("/", (req, res) => {
   });
 });
 
-// 🔹 PUT (Update full data)
+// PUT (Update full data)
 router.put("/:id", (req, res) => {
   const { id } = req.params;
   const { name, email } = req.body;
@@ -36,7 +36,7 @@ router.put("/:id", (req, res) => {
   res.json({ message: "User berhasil diupdate!", user: users[userIndex] });
 });
 
-// 🔹 PATCH (Update sebagian data)
+// PATCH (Update sebagian data)
 router.patch("/:id", (req, res) => {
   const { id } = req.params;
   const { name, email } = req.body;
@@ -51,7 +51,7 @@ router.patch("/:id", (req, res) => {
   res.json({ message: "User berhasil diupdate sebagian!", user });
 });
 
-// 🔹 DELETE (Hapus data)
+// DELETE (Hapus data)
 router.delete("/:id", (req, res) => {
   const { id } = req.params;
   const userIndex = users.findIndex(u => u.id === parseInt(id));
